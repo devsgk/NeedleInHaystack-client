@@ -98,21 +98,27 @@ We researched various search algorithms and attempted to implement them ourselve
 <br>
 
 **- TF (Term Frequency)**
-<img width="350" alt="TF" src="https://github.com/Team-Office360/NeedleInHaystack-client/assets/139360841/393b05ae-9a9b-44fb-af44-70a49f37d5ec">
+<p>
+  <img width="350" alt="TF" src="https://github.com/Team-Office360/NeedleInHaystack-client/assets/139360841/393b05ae-9a9b-44fb-af44-70a49f37d5ec">
+</p>
 
 : It is the number of times a particular word appears in a document, divided by the total number of words in that document. This shows the frequency of the word. The more frequently a word appears, the higher its value.
 
 <br>
 
 **- IDF (Inverse Document Frequency)**
-<img width="350" alt="IDF" src="https://github.com/Team-Office360/NeedleInHaystack-client/assets/139360841/f3880913-56ff-454b-9129-0f94543b99d1">
+<p>
+  <img width="350" alt="IDF" src="https://github.com/Team-Office360/NeedleInHaystack-client/assets/139360841/f3880913-56ff-454b-9129-0f94543b99d1">
+</p>
 
 : It is the logarithm of the total number of documents divided by the number of documents that contain the word. As the number of documents containing the word increases, the IDF value decreases inversely. This represents the uniqueness, or the specific value, of the word.
 
 <br>
 
 **- TF-IDF**
-<img width="350" alt="TF-IDF" src="https://github.com/Team-Office360/NeedleInHaystack-client/assets/139360841/6ab61630-e75e-4fd7-9f3d-87c109edad3e">
+<p>
+  <img width="350" alt="TF-IDF" src="https://github.com/Team-Office360/NeedleInHaystack-client/assets/139360841/6ab61630-e75e-4fd7-9f3d-87c109edad3e">
+</p>
 
 : TF-IDF is simply the product of these two values, meaning that the higher the frequency of the word in a specific document and the fewer appearances in other documents, the higher its TF-IDF value.
 
@@ -123,7 +129,9 @@ We researched various search algorithms and attempted to implement them ourselve
 <br>
 
 **- BM25 (Best Matching 25)**
-<img width="350" alt="BM25" src="https://github.com/Team-Office360/NeedleInHaystack-client/assets/139360841/7c55a664-0f31-4f31-ad19-6eeaaa6beed0">
+<p>
+  <img width="350" alt="BM25" src="https://github.com/Team-Office360/NeedleInHaystack-client/assets/139360841/7c55a664-0f31-4f31-ad19-6eeaaa6beed0">
+</p>
 
 : We utilized a modified version of the TF-IDF algorithm, known as the BM25 algorithm.
 
@@ -136,7 +144,9 @@ In our project, we employed BM25F which basically calculates the BM25 algorithm 
 <br>
 
 **- PageRank algorithm**
-<img width="350" alt="Ranking" src="https://github.com/Team-Office360/NeedleInHaystack-client/assets/139360841/25ab70e7-534a-46db-8d57-a0af951e26b3">
+<p>
+  <img width="350" alt="Ranking" src="https://github.com/Team-Office360/NeedleInHaystack-client/assets/139360841/25ab70e7-534a-46db-8d57-a0af951e26b3">
+</p>
 
 Next, we added the PageRank algorithm to our search algorithm suite.
 
@@ -197,7 +207,9 @@ These two methods helped us enhance both the speed and accuracy of our system.
 <br>
 
 ### 3. Extract code from playing video
-<img width="350" alt="extract" src="https://github.com/Team-Office360/NeedleInHaystack-client/assets/139360841/19d22e2c-0c80-4819-9fd8-12d1252391b3">
+<p>
+  <img width="350" alt="extract" src="https://github.com/Team-Office360/NeedleInHaystack-client/assets/139360841/19d22e2c-0c80-4819-9fd8-12d1252391b3">
+</p>
 
 : For this feature, we leveraged Optical Character Recognition (OCR) technology, which recognizes text in images, and we utilized Tesseract.js, the most widely used OCR engine in the Node.js environment. Initially, we thought extracting text from images would be challenging, but since the Tesseract OCR engine handles the extraction of text from images, we believed our task was simply to take screenshots of the playing video and let Tesseract recognize the text, which seemed feasible. Contrary to our expectations, we encountered more difficulties in taking screenshots than in extracting text.
 
@@ -208,7 +220,9 @@ The solution we came up with was to use Puppeteer, as we did for crawling, to by
 <br>
 
 ### 4. Automate Crawler
-<img width="350" alt="automate crawler" src="https://github.com/Team-Office360/NeedleInHaystack-client/assets/139360841/a529031c-6034-4c6a-bbb8-63439fcf2127">
+<p>
+  <img width="350" alt="automate crawler" src="https://github.com/Team-Office360/NeedleInHaystack-client/assets/139360841/a529031c-6034-4c6a-bbb8-63439fcf2127">
+</p>
 
 - **First try**
 : we hardcoded the entry URL when we wanted to crawl in **`crawl.js`** file, and manually execute this file from the terminal to start the crawling process. 
