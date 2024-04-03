@@ -18,7 +18,7 @@
 - [✈️ Demo](#️-demo)
 - [🔧 Tech Stacks](#-tech-stacks)
 - [🙋🏻‍♂️ Introduction](#️-introduction)
-- [🧐 How does a Search Engine work?](#how-does-a-search-engine-work)
+- [🧐 How does a "Search Engine" work?](#-how-does-a-search-engine-work)
 - [⛰️ Challenges](#️-challenges)
   1. [Search Algorithm](#1-search-algorithm)
   2. [Spell check feature](#2-spell-check-feature)
@@ -69,7 +69,7 @@ You are welcome to dive into our codebase, raise questions, and give us your ins
 
 <br>
 
-## 🧐 How does a Search Engine work?
+## 🧐 How does a "Search Engine" work?
 Search engines, including Google search, fundamentally operate in three steps:
 
 **1. Crawling**
