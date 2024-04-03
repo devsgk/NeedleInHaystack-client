@@ -242,15 +242,9 @@ For the second version, we implemented a admin page accessible only to administr
 ## 📚 What I learned
 Working on this project was gave us a huge opportunity to deeply understand the principles behind the search engines we use daily. Real search engines utilize machine learning, AI, and manage much larger data sets, so we see endless challenges and opportunities for improvement in our project moving forward.
 
-<br>
-
 Among the achievable aspects, one area we're considering is how to further enhance search accuracy to deliver more personalized results to users. Storing users' search histories in the database has been our practice, but leveraging additional information like location and age could offer even more tailored results.
 
-<br>
-
 As for search speed, as we anticipate managing increasingly larger datasets, we're contemplating how to maintain quick search responses. This involves strategizing on data management and exploring ways to ensure that search speeds remain fast despite the growing volume of information.
-
-<br>
 
 Continual improvement and adaptation to these challenges are our key focuses, aiming to provide a search engine that not only meets but exceeds user expectations in terms of accuracy, speed, and personalized experience.
 
