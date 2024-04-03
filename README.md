@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="350" alt="image" src="https://github.com/Team-Office360/NeedleInHaystack-client/assets/139360841/183ebf52-2a91-4e40-a381-c8ab5df22d7f">
+  <img width="400" alt="image" src="https://github.com/Team-Office360/NeedleInHaystack-client/assets/139360841/183ebf52-2a91-4e40-a381-c8ab5df22d7f">
 </p>
 
 <p align="center">
